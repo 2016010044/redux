@@ -1,0 +1,8 @@
+state：
+React 把组件看成是一个状态机（State Machines）,  通过状态 (State) 去操作状态机。在开发中, 通过与用户的交互，实现不同状态，然后渲染 UI，让用户界面和数据保持一致。在React 中，只需更新组件的 state，然后根据新的 state 重新渲染用户界（不要操作 DOM）。
+
+意义：
+根据state状态来渲染界面
+后期, 只要我们修改state, 那么界面就会自动重新渲染，再次执行render
+
+props：组件传值。组件内部的this.props属性是只读的不可修改
